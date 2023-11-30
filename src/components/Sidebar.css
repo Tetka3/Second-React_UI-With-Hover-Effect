@@ -1,0 +1,29 @@
+.active{
+    background-color: #1d4ed8;
+}
+
+.sidebar {
+    background-color: #213343;
+    width: 250px;
+    height: 100vh;
+    position: sticky;
+    top: 100px;
+    height: calc(100vh - 100px); 
+  
+    
+    
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.sidebar ul li a:not(.active):hover {
+    background-color: lightgreen;
+}
